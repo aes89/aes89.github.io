@@ -2,6 +2,17 @@
 
 A silly little place for some silly little doodles.
 
+# Draft features roadmap
+- mobile base layout
+- web base layout
+- dark mode
+- gallery
+- db integration
+- individual image page layout (ratings, original comparison)
+- db: original image comparison
+- db: ratings
+- db: comments
+
 # React App Boilerplate:
 
 ## Available Scripts
