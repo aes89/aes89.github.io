@@ -2,6 +2,8 @@
 body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    background-image: url('./background/v602-nunoon-33-rippednotes.jpg');
+    background-size: contain;
 }
 .dancing-script {
     font-family: 'Dancing Script', cursive;
@@ -9,20 +11,26 @@ body {
 
 #menuLinks {
     display: none;
+    background-color: white;
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    width: 20%;
-    margin-left: 13%;
+    margin-left: 10%;
+    border: solid black 3px;
+    border-radius: 15px;
+    padding: 2%;
+    box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.233);
 }
 
 nav {
     display: flex;
     align-items: center;
     width: 80%;
+    background-color: white;
     border: solid black 3px;
     margin: 1em 10% 0 10%;
     border-radius: 15px;
+    box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.233);
 }
 h1 {
     margin: 0 auto;

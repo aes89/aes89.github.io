@@ -31,9 +31,8 @@ function App() {
                 <h1 className="dancing-script">Doodles</h1>
             </nav>
             <div id="menuLinks">
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
+                <a href="#news">About</a>
+                <a href="#contact">Gallery</a>
             </div>
             <p>Stuff coming soon</p>
         </div>
