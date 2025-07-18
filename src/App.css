@@ -47,6 +47,11 @@ h1 {
     h1 {
         font-size: xx-large;
     }
+    #menuLinks {
+        width: 40%;
+        align-items: center;
+        margin: 2% 27%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -60,6 +65,7 @@ h1 {
     .MenuIcon {
         transform: scale(1.9);
     }
+
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -69,6 +75,7 @@ h1 {
     .MenuIcon {
         transform: scale(2);
     }
+
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
