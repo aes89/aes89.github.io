@@ -1,0 +1,78 @@
+.galleryContainer {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    margin:  2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 3px;
+    margin: 1em 10% 0 10%;
+    border-radius: 15px;
+    box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.233);
+
+}
+
+.galleryImageContainer {
+    border: solid black 3px;
+    border-radius: 15px;
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+    aspect-ratio: 1/1;
+}
+.galleryImagesRow {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.galleryPreviewContainer {
+    width: 20%;
+    height: 80%;
+    margin-right: 3%;
+    aspect-ratio: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.galleryPreview {
+    border: solid black 3px;
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    aspect-ratio: 1/1;
+    margin: 3%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.galleryPreviewContainer {
+    display: none;
+}
+.galleryPreview {
+    display: none;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+        .galleryImageContainer {
+        align-self: flex-start;
+        margin: 10% 3%;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (orientation: landscape) {
+}
